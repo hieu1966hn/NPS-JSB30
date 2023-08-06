@@ -33,6 +33,11 @@
 - Lớp: 9
 - Sở thích: Chơi game
 
+7. Nguyễn Thùy Chi
+
+- Lớp 10
+- Sở thích: Đọc truyện
+
 Lý thuyết:
 
 - Cú pháp viết html như sau:
