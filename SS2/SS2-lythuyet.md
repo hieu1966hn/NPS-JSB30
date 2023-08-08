@@ -10,3 +10,7 @@
 * Thường có chiều rộng (chiều ngang) thẻ bằng 100% màn hình website
 
 - Sử dụng dụng được: width, height,...
+
+class: Dùng để style 1 hoặc nhiều đối tượng mong muốn có cùng style với nhau.
+
+ID: Dùng để style duy nhất 1 thẻ.
