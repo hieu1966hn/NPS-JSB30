@@ -1,0 +1,26 @@
+.container .item {
+  width: 80px;
+  height: 80px;
+  background-color: darkseagreen;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+.container {
+  display: flex;
+  /* hướng mặc định  - trục chính*/
+  flex-direction: row;
+
+  /* Alignment */
+  /* justify-content: center; */
+  justify-content: center;
+
+  /* Tăng chiều cao người cha lên toàn bộ màn hình */
+  height: 100vh;
+
+  /* Style vị trí phần tử ngược lại trục chính */
+  align-items: center;
+
+  flex-wrap: wrap;
+}
