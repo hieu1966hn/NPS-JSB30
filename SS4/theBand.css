@@ -1,0 +1,106 @@
+/* Ép kiểu trang web về mặc định */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* C1: inline-block */
+/* .container .navbar div {
+  display: inline-block;
+} */
+
+/* Cách 2: display: flex; */
+.container .navbar {
+  display: flex;
+  /* flex-direction: row; */
+  background-color: black;
+  color: #fff;
+}
+
+.container .navbar div {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.container .navbar div:hover {
+  background-color: antiquewhite;
+  color: #000;
+}
+
+
+.image {
+  width: 100%;
+}
+
+.container .home {
+  width: 60vw;
+  margin: auto;
+}
+
+
+.heading {
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+  margin: 30px 0px 15px 0px;
+  /* Đi theo chiều kim đồng hồ */
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-container .item {
+  width: 28%;
+}
+
+
+#contact .heading {
+  font-weight: 300;
+  letter-spacing: 8px;
+}
+
+#contact .box-contact {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+  height: 150px;
+}
+
+#contact .box-contact p {
+  text-align: center;
+}
+
+.slogan {
+  color: darkgray;
+  font-style: italic;
+}
+
+#contact form {
+  width: 100%;
+}
+
+#contact form input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+
+.btn {
+  padding: 12px 15px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+
+  margin: 15px 0px;
+  /* trên/dưới trái/phải */
+
+}

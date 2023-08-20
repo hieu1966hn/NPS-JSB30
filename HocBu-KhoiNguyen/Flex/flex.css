@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  display: flex;
+  /* Thuộc tính mặc định khi sử dụng flex: row/column */
+  flex-direction: row;
+
+  /* Chia vị trí theo trục chính  (theo direction): flex-start/end, center */
+  justify-content: center;
+
+
+  /* Chia vị trí theo trục phụ 90 độ với trục chính */
+  align-items: center;
+
+}
+
+
+.item {
+  width: 100px;
+  height: 100px;
+
+  background-color: lightpink;
+  border-radius: 5px;
+  margin: 10px;
+}
