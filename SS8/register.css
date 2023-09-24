@@ -8,5 +8,61 @@
 
 .container {
   height: 100vh;
-  background-image: url();
+  background-image: url(https://images3.alphacoders.com/132/1322308.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-register {
+  background-color: #fff;
+  width: 35vw;
+  height: 80vh;
+  border-radius: 10px;
+
+  padding: 30px 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding: 0px 15px;
+}
+
+#register-form .input-box {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+}
+
+#register-form .input-box label {
+  font-weight: bold;
+}
+
+#register-form .input-box input {
+  padding: 10px 0px;
+  outline: none;
+  border-bottom: 2px solid rgba(30, 155, 213, 0.894);
+}
+
+
+.btn {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: rgba(30, 155, 213, 0.894);
+  color: #fff;
+  cursor: pointer;
 }
